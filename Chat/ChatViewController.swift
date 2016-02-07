@@ -108,8 +108,8 @@ class ChatViewController: UIViewController,UITableViewDataSource, UITableViewDel
                             print("user: \(object["user"].username)")
                             self.users.append(object["user"].username!!)
                         } else {
-                            self.users.append("no name bitch")
-                            print("user: no name bitch")
+                            self.users.append("Anonymous")
+                            print("user: Anonymous")
                         }
                         
                        
